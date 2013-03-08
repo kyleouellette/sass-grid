@@ -1,0 +1,95 @@
+.grid-12 {
+  display: block;
+  float: none;
+  clear: both;
+  min-height: 10px;
+  background-color: #ccc;
+  margin: 0 auto;
+  width: 95%;
+}
+.grid-12:after {
+  content: ' clear ';
+  width: 0px;
+  height: 0px;
+  line-height: 0px;
+  overflow: hidden;
+  display: block;
+  clear: both;
+}
+.grid-12 .col-1, .grid-12 .col-2, .grid-12 .col-3, .grid-12 .col-4, .grid-12 .col-5, .grid-12 .col-6, .grid-12 .col-7, .grid-12 .col-8, .grid-12 .col-9, .grid-12 .col-10, .grid-12 .col-11, .grid-12 .col-12 {
+  float: left;
+  margin-right: 1.05%;
+  background-color: #f00;
+}
+.grid-12 .col-1 {
+  width: 7.37083%;
+}
+.grid-12 .last {
+  margin-right: 0px;
+}
+.grid-12 .col-2 {
+  width: 15.79167%;
+}
+.grid-12 .last {
+  margin-right: 0px;
+}
+.grid-12 .col-3 {
+  width: 24.2125%;
+}
+.grid-12 .last {
+  margin-right: 0px;
+}
+.grid-12 .col-4 {
+  width: 32.63333%;
+}
+.grid-12 .last {
+  margin-right: 0px;
+}
+.grid-12 .col-5 {
+  width: 41.05417%;
+}
+.grid-12 .last {
+  margin-right: 0px;
+}
+.grid-12 .col-6 {
+  width: 49.475%;
+}
+.grid-12 .last {
+  margin-right: 0px;
+}
+.grid-12 .col-7 {
+  width: 57.89583%;
+}
+.grid-12 .last {
+  margin-right: 0px;
+}
+.grid-12 .col-8 {
+  width: 66.31667%;
+}
+.grid-12 .last {
+  margin-right: 0px;
+}
+.grid-12 .col-9 {
+  width: 74.7375%;
+}
+.grid-12 .last {
+  margin-right: 0px;
+}
+.grid-12 .col-10 {
+  width: 83.15833%;
+}
+.grid-12 .last {
+  margin-right: 0px;
+}
+.grid-12 .col-11 {
+  width: 91.57917%;
+}
+.grid-12 .last {
+  margin-right: 0px;
+}
+.grid-12 .col-12 {
+  width: 100%;
+}
+.grid-12 .last {
+  margin-right: 0px;
+}
